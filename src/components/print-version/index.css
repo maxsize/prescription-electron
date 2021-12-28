@@ -1,0 +1,35 @@
+.row {
+  margin: 4px 0 !important;
+}
+.row-parent > div {
+  margin: 4px 0 !important;
+}
+.dense-grid {
+  margin-top: 0 !important;
+}
+.dense-grid > div {
+  padding-top: 6px !important;
+}
+.wrapper {
+  /* margin: 'auto', padding: '8px 0', position: 'relative', height: '100%', display: 'flex', flexFlow: 'column' */
+  margin: auto;
+  padding: 0px 0;
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  font-size: small;
+}
+.check-group {
+  display: block !important;
+}
+.check-group > label > span {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  font-size: small !important;
+}
+.divider {
+  margin: 6px 0 !important;
+  border-bottom-width: unset !important;
+  border-color: darkgrey !important;
+}
